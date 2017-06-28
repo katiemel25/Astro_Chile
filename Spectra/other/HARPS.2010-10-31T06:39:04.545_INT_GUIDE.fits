@@ -1,0 +1,150 @@
+SIMPLE  =                    T / Standard FITS format: NOST 100-2.0             BITPIX  =                  -32 / No. of bits per pixel                          NAXIS   =                    2 / No. of axes in image                           NAXIS1  =                   41 / No. of pixels                                  NAXIS2  =                   41 / No. of pixels                                  EXTEND  =                    T / FITS extension may be present                                                                                                  CRPIX1  =                   1. / Reference pixel                                CRVAL1  =                   1. / Coordinate at reference pixel                  CDELT1  =                   3. / Coord. incr. per pixel (original value)        CTYPE1  = '                '   / Units of coordinate                            CRPIX2  =                   1. / Reference pixel                                CRVAL2  =                   1. / Coordinate at reference pixel                  CDELT2  =                   4. / Coord. incr. per pixel (original value)        CTYPE2  = '                '   / Units of coordinate                            BUNIT   = 'none given      '   / Units of data values                           DATAMAX =              109151. / Maximum data value                             DATAMIN =                   0. / Minimum data value                                                                                                             ORIGIN  = 'ESO-MIDAS'          / Written by MIDAS                               DATE    = '2010-10-31T06:49:28' /  [UTC] Date of writing                        FILENAME= 'HARPS_PAR_INTMTX.txt.fits' / Original file base-name                 MIDASFTP= 'IMAGE   '           / MIDAS File Type                                                                                                                OBJECT  = 'image created from ASCII file' / MIDAS desc.: IDENT(1)               RA      =                   0. / MIDAS desc.: O_POS(1)                          DEC     =                   0. / MIDAS desc.: O_POS(2)                          DATE-OBS= '01/01/00'           / MIDAS desc.: O_TIME(1)                         TM-START=                   0. / MIDAS desc.: O_TIME(5)                         EXPTIME =                   0. / MIDAS desc.: O_TIME(7)                         COMMENT NOST 100-2.0: Hanisch,R. et al. 2001, Astron. & Astrophys. 376, 559     HISTORY CREATE/IMAGE HARPS_PAR_INTMTX.txt.bdf 2,41,41 1,1 ASCII_FILE HARPS_PAR_\HISTORY  INTMTX.txt.tmp R                                                      \HISTORY \                                                                       HISTORY \                                                                       HISTORY \                                                                       HISTORY \                                                                       HISTORY \                                                                       HISTORY \                                                                       HISTORY \                                                                       HISTORY \                                                                       HISTORY COMPUTE/IMAG HARPS_PAR_INTMTX.txt.bdf = HARPS_PAR_INT\                  HISTORY MTX.txt.bdf * 11                                                        HISTORY COMPUTE/IMAG a = HARPS_PAR_INTMTX.txt.fits - fi\                        HISTORY rst.fits                                                                                                                                                HISTORY  ESO-DESCRIPTORS START   ................                               HISTORY  'LHCUTS','R*4',1,4,'5E14.7'                                            HISTORY   3.2209301E+04 6.9521500E+04 0.0000000E+00 1.0915100E+05               HISTORY                                                                         HISTORY  'HIST_BINS','R*4',1,5,'5E14.7'                                         HISTORY   2.5600000E+02 4.2804315E+02 0.0000000E+00 1.0915100E+05 0.0000000E+00 HISTORY                                                                         HISTORY  'HISTOGRAM','I*4',1,256,'7I10'                                         HISTORY           2         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0        41 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0         0         0         0         0 HISTORY           0         0         0        32       268       271       161 HISTORY         104        98        68        56        35        28        28 HISTORY          25        20        19        13        17        17         9 HISTORY           9         8        13        12         7        13         7 HISTORY           6         3         8         8         1         3        11 HISTORY           9         6         5         6         2         3         1 HISTORY           5         2         3         2         7         6         2 HISTORY           6         7         2         2         3         4         0 HISTORY           2         3         1         5         1         2         2 HISTORY           4         0         1         3         4         2         1 HISTORY           3         2         3         3         1         4         0 HISTORY           0         1         3         2         2         1         2 HISTORY           0         0         4         0         1         2         2 HISTORY           2         2         1         1         1         0         1 HISTORY           0         1         3         3         4         1         2 HISTORY           2         2         2         1         3         0         3 HISTORY           0         1         1         1         1         1         2 HISTORY           1         3         1         2         0         0         3 HISTORY           2         2         0         1         2         2         0 HISTORY           1         1         0         0         0         4         1 HISTORY           4         0         1         1         2         1         2 HISTORY           2         0         0         0         2         2         1 HISTORY           2         1         0         1         0         1         2 HISTORY           1         1         1         2         2         0         1 HISTORY           2         1         1         0         0         0         1 HISTORY           1         1         2         0                               HISTORY                                                                         HISTORY  'STATISTIC','R*4',1,12,'5E14.7'                                        HISTORY   0.0000000E+00 1.0915100E+05 4.1328504E+04 1.5383238E+04 2.0077732E+00 HISTORY   8.8105431E+00 6.9473216E+07 3.5795109E+04 2.1402158E+02 2.5600000E+02 HISTORY   4.2804315E+02 3.5313559E+04                                           HISTORY                                                                         HISTORY  'WINDOW_FROM','I*4',1,2,'7I10'                                         HISTORY           1         1                                                   HISTORY                                                                         HISTORY  'WINDOW_TO','I*4',1,2,'7I10'                                           HISTORY          41        41                                                   HISTORY                                                                         HISTORY  'DISPLAY_DATA','I*4',1,9,'7I10'                                        HISTORY          -8        -8        21        21         0        -1        -1 HISTORY          -1        -1                                                   HISTORY                                                                         HISTORY  ESO-DESCRIPTORS END     ................                               REFX    =           328.329000                                                  REFY    =           224.805000                                                  ASA     =             0.981915                                                  BKGD    =          3479.131687                                                  RATIO   =             2.358913                                                  INTTIME =             0.150000                                                  LOOPTIME=             0.500000                                                  CYCLETME=             3.000000                                                  DCNIMG  =                    4                                                  DCDELTA =                    5                                                  DCCUTS  =                    5                                                  DCSAVPER=                   60                                                  DCMONTIM=                   30                                                  DCBMONTI=                   10                                                  METHOD  = 'MEAN    '                                                            RA_RMS  =             0.129948                                                  DEC_RMS =             0.634048                                                  DELTA_X =                  0.4                                                  DELTA_Y =                 0.69                                                  DELTA   =                  0.2                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             EÆ Gù Gö G1 Gî Gû G« G⁄ G¯ G! GI Gr G∑ GË G˚ G	. G	V G	± G	„ G
+
+ G
+F G
+N G
+C G
+@ G
+G G
+= G
+
+ G	ƒ G	 G	v G	D G	 Gœ Gì Gc G0 G Gÿ Gõ Gi GV EÆ` Gπ GØ GE G∆ G€ G G G? Gg G£ G‘ G	 G	6 G	á G	∑ G	ı G
+O G
+™ G
+‹ G, G2 G G G G
+Ì G
+∞ G
+: G	ˇ G	Õ G	∞ G	k G	' G‚ Gî Gk G1 Gı GÕ Gù Gi EÆ` G· GÀ Gc G G G* G> Gz G¡ Gﬁ G	8 G	á G	∏ G
+ G
+l G
+∆ G4 Gñ G G+ G) G0 G" G GÍ Gr G
+Ã G
+{ G
+A G
+ G	Õ G	â G	/ G◊ Gú Gb G0 G
+ G∏ Gà EÆ` Gˆ Gˇ Gñ G G+ GG Gh G¨ G	 G	V G	Ø G
+ G
+l G
+· GF Gü G> G÷ GC Gë Gy Gj Gg GE G¸ G] G´ G G
+˙ G
+Æ G
+M G	‚ G	â G	< G◊ Gù GM G G‚ G• EÆ` G G0 G≤ G? G\ GÖ G¡ G	 G	K G	◊ G
+M G
+ª G1 G∆ Gd G G≠ G` G
+ Gs GÅ Gi G4 G˝ GX Gú G„ G; Gˆ Gò G
+˚ G
+h G	Ù G	Ä G	 G√ Gk GD G˝ Gƒ EÆ` G< GN GÓ Gr Gô G’ G	 G	v G	‚ G
+b G
+ˆ G≥ G^ G G… Gé G| GÇ G G√ G G¯ Gò G GI GO G´ G› G Gä G´ G
+ G
+i G	÷ G	` Gˆ Gù Gc G G‚ EÆ` Gd GÅ G G¨ GË G	D G	¶ G
+ G
+ä G GΩ G† Gó GÆ GØ Gí G= G| Gç GJ Gä GÇ G– G G G⁄ G€ Gk GY G| Gå G“ G
+Á G
+- G	∞ G	9 Gÿ Gâ G9 GÍ EÆ` Gó G™ GH GË G	8 G	ú G
+ G
+º G[ G Gø G˝ GV Gà G´ G  GŒ Gù Gg Gk G∑ Gô Gµ GB G’ Gu G∂ G∆ G Gû GÜ GF G] G
+≠ G
+ G	ä G	( Gß GM G EÆ` Gø G€ GÖ G	. G	í G	Û G
+~ GQ G G GN Gø Gö GJ GR G G= GÛ G a G!„ G": G!∞ G À G™ G1 GÈ G Gﬁ GÜ Gx Gß G† Gµ G G
+j G	◊ G	X GÕ Gv GE EÆ` G˚ G G” G	• G
+ G
+ G GŒ G Gj G! GB G[ G: G§ GÇ G"W G&Œ G)¢ G,( G-ñ G-b G+" G'9 G#' G£ G≤ G' Gm Gë G Gæ Gû G~ G
+¡ G
+0 G	â G	 G® Gb EÆ` G" Gg G	- G	˛ G
+ä G1 GŸ G° G˚ G G} Gq GÓ G G"R G'≤ G- G3' G7& G;B G> G=ô G9¥ G3ë G-É G'v G!ü Gû Ge G° G} G G_ G3 GK G
+t G	¶ G	& Gœ Gã EÆ` GI G† G	| G
+t G GŸ G≈ G Gb G≤ Ga GD G G% G,ä G4© G=( GFè GNƒ GTG GVÚ GUT GNp GE G:˚ G/Æ G(
+ G!‘ G› G
+ G. G G GÃ Gø G
+÷ G	‡ G	k G˛ G® EÆ` Gq G€ G	Ë G
+‡ Gö Gú GØ G G G Gé G¥ G%K G.˝ G:l GHW GU˜ GdH Gr) GzÕ G{w Gwí Gke G[@ GM G<5 G0¢ G'[ GÕ G@ Gô GF G] Gê G+ G G
+C G	¶ G	0 G≈ EÆ` Gò G	" G
+. GB G1 G8 Gy G Gh GŒ G¶ G$ G.l G<Œ GN} Gdg Gy* GàáÄGî2 GöE GöÅÄGïÄGä/ÄG{u GbM GMS G;* G-◊ G#„ G] G‚ G€ G; G Gû Gi G
+à G	Í G	c GÏ EÆ` G  G	h G
+á GØ GØ GË G/ G G≤ GR G!∂ G+Ò G: GNô Gkg GÖˆÄGï° G¶»ÄG¥> G∫‡ÄGæ— Gµ≈ÄG§œ Gí!ÄG~' G_G GG; G5L G(Ã Gµ G Gk G' Gº G  GÆ G
+¶ G
+ G	c GÏ EÆ` G G	ö G
+√ G GX G· GL G; G> Gj G'⁄ G5k GH± GeÑ GÖÚÄGú$ G≠Ü G¥t Gµ ÄG∫bÄG∆øÄGŒ≤ÄGƒÄG©òÄGè2 Gr£ GS G<r G-* G"Ÿ GP G¯ G$ G G` G G G
+) G	Z G˜ EÆ` GT G	ﬁ G GK Gı G◊ Gè G1 G∆ G"C G.) G?‚ GY® G~# Gî† G©Ö G™È G¢ Gõó GõÍ G§¬ÄGøÖÄG’/ÄG¡w Gü¥ GÇ˝ÄG\¥ GBË G2 G%ƒ G3 G G€ G≠ G¡ G_ G9 G
+ G	ä G	< EÆ` Gá G
+ GL Gﬂ Gî Gà G° GË G G&ˆ G5. GK¢ GhÈ GålÄG• G£XÄGã GsÄ Gg… GqQ GÑ[ GòßÄG«: G“L GÆ= GåzÄGi' GIÛ G5ˆ G'ˆ G8 GÀ G_ GV G/ Gõ GD G
+  G	Ω G	O EÆ` Gõ G
+ G G8 G G% Gä G– GV G*M G;õ GT∞ Gw Gô GÆ9 GçóÄGQ G3; G+ü G45 GPÅ G{ G¶ƒÄG‘e G∏˚ÄGì(ÄGrY GOó G8Ï G)l G‰ Gë GÁ G∏ Gm GÀ Gv G
+ã G	 G	{ EÆ` G√ G
+_ G{ G G? G§ G™ GÃ G!O G,… G>ı G[ GÉ  G§ Gµ.ÄGÖÄG;∞ G] G@ G  G+u GUˇ Gîé GŒnÄGªà Gñ˚ Gw· GSI G:~ G*$ GÃ G GT G€ Gq Gù Gì G
+º G
+, G	Ñ EÆ` G‚ G
+p Gö GA G G¯ G Gå G!π G-a GA G`g GàπÄG™ Gø1 GçÄG< Gƒ G G/ Gè GC¥ Gó«ÄGÀÄG¥oÄGïlÄGuŸ GRl G9Ê G* GŸ G˛ GN G	 G® G„ G© G
+› G
+* G	Ü EÆ` GÏ G
+R G∂ GT G2 GÆ G; G‡ G!» G,Ù GAù Gaö GàtÄG©9ÄG≈õÄG¨ƒ GZE Gq G G≈ G≠ GU™ G¥ãÄG∆àÄG™
+ Gé= Goí GO G8; G)2 G G6 Gæ G≤ Gñ GÙ G¨ G
+¢ G
+ G	è EÆ` G∑ G
+0 G™ GF G: Gy GΩ G¿ G! G,· G@F G[7 GÉ' G¢Ÿ G¡k GÕÅ G£p GTg G)µ G(E GK> GùÔ G )ÄGª- GùmÄGÑ‚ÄGdá GHù G3≥ G&± Gº Go G< G; G1 G¡ Gå G
+† G
+ G	{ EÆ` Gy G	· GÄ GÍ G» G‡ G
+ GÚ Gú G)Ï G;o GPt Gu> GóßÄGµ… GÕyÄG“ÃÄGª∫ GöæÄGôfÄG∞¶ G»–ÄG¡¯ÄG©‡ÄGèÊÄGvË GW— G@’ G/û G#ª G˜ Gm GE GQ Gõ GS G( G
+n G	€ G	G EÆ` Ge G	ı G: Gg G GZ G GT GË G%’ G4! GEB Gcè Gàz G°G Gπs GÃ G”” G ˆÄG»£ G…ºÄG¿—ÄG≠3ÄGñ3ÄGÅ†ÄGc∏ GKb G8ç G*Ä G ô Gñ GÈ Gw G± G G¢ G
+◊ G
+0 G	® G	  EÆ` Gn G	‡ G
+˝ G8 Gú Gå G8 GÃ G G!1 G,Z G:« GPz GpÇ GãuÄGûÁÄG∞!ÄG∏∑ GµñÄGø¬ÄG∑NÄG¶CÄGïÒÄGÉÜ GjV GR◊ G>6 G0 G$© GÉ G= G GO G9 GN G G
+r G	Î G	W G√ EÆ` G: G	Æ G
+£ G GL Gˆ G& GP G G_ G&N G1± GA GV+ GnL GÇ∞ Gç”ÄGïø Gòk GùÖÄGñSÄGã°ÄGç Gh\ GT" GB◊ G3“ G(¢ G« Gd G& G´ GA GV G◊ G
+€ G
+. G	õ G	 G∞ EÆ` GÛ G	h G
+{ Gü GÆ G: G# Gt G‰ G» G L G)Ä G3ÿ GA GP‰ G_  GjÅ Gq{ G~( G~ÿ Gy\ Goy Ga GO§ GAj G5 G(ı G!  G√ Gø Gˇ G< G0 GÅ Gt G
+° G	Û G	` G‡ Gâ EÆ` Gõ Gˆ G
+! G= G. Gb G€ G- GA Gì Ga G!} G(è G/¶ G<≥ GF˙ GN7 GTl GY" GYı GS	 GO, GG@ G<… G2 G)∫ G!B G GÕ G G G« G+ G G
+‰ G
+= G	ô G	$ G√ GW EÆ` G_ GÉ G	¥ G
+∆ Gá GÅ G– Gu GM G‡ G GK G P G&Ô G-Â G5o G:’ G>z G@ G@ G=j G:Æ G4Ÿ G.† G&π G 3 G	 G˚ G~ GÀ Gv GÀ Gl G^ G
+x G	  G	T Gﬂ G| G$ EÆ` G7 Gn G	] G
+ G
+Ø Gæ Gø G G¿ Gì GÁ G GE Gß G$E G(€ G+‘ G. G/« G/s G,¥ G+/ G( G$f G G GW Gs GÁ G’ G$ G€ G† G
+∞ G
+ G	p G	 Gá G$ G EÆ` G GP G	 G	ø G
+D G Gﬂ G‡ G2 Gn Go G? Gt G GT GO G!\ G"‘ G$ G$[ G"ç G!, Gz GZ Gu Gî G Gà G¿ G0 G G¸ G
+Ò G
+< G	´ G	6 G∑ Gi G G‡ EÆ` G‹ G GÁ G	å G
+ G
+q G
+˛ G⁄ G¥ GÒ GN G˛ G‘ G4 G¢ G. GE GÒ G* G@ G G“ G G“ G Gœ G& GB G! Gæ G¯ G  G
+t G	– G	] GÈ Gá G7 GÛ G‡ EÆ` G∂ G⁄ G† G	H G	î G	‡ G
+f G G• Gy GP GF GV G¯ GX GÊ GN G Gö GZ GJ G’ G¸ Gı GÉ GP GÁ Gß G¡ GÏ G2 G
+i G	Ó G	x G	 G¨ G_ G& G‡ G∫ EÆ` GÑ G© G\ G G	2 G	 G	Ú G
+l G
+” G$ GS G# Gj Gp G! Gì Gp G˝ G§ Gq G| GÌ G˝ G= G˙ GK G` GÖ Gπ G
+Á G
+z G	‚ G	Y G	 G° Gs G9 G˝ G◊ G¶ EÆ` G^ Gz G G† G„ G	' G	s G	æ G
+ G	Ò G	¢ G
+w GŸ G¬ Gå Gµ G‚ G“ Gë G¨ Gd G GË G¸ Gf G∆ G G{ G
+  G
+  G	Ã G	o G˙ G† Gq G8 G Gﬂ GØ Gá EÆ` G7 G2 G´ GQ Gî Gœ G˝ G	 G	* G	6 G	! G	… G
+· GÜ G Gf Gé GÌ Gs Gq Go GD G$ GN G G∞ G G
+\ G
+
+ G	• G	O G	 G° G] G8 G G‡ G¬ GÜ Gj EÆ` G G Go G GG GÅ Gä Gû G± G÷ G	4 G	∑ G
+9 G
+ó G GA G° Gƒ G G G Gﬁ Gz G2 G
+Ê G
+¶ G
+L G	£ G	_ G	: GÏ G° G] G- GÒ G÷ G¬ G¶ Gs G` EÆ` Gﬁ G– Gg GÂ G G4 GG Ge Gw Gπ G	 G	Ç G	≠ G	˘ G
+1 G
+j G
+∏ G
+∑ G
+÷ G
+” G
+Ò G
+˚ G
+û G
+x G
+ G	± G	x G	K Gˆ G– Gó G\ G GË GÀ GØ Gë G~ GV GN EÆ` GÃ G“ GR Gﬂ GÊ G˙ G  G2 GD Gu G∑ G	 G	= G	a G	í G	π G	Ò G
+	 G
+% G
+ G
+K G
+. G
+ G	Í G	ü G	? G	 GÍ G® Gx GI G# GÛ GÀ G£ Gu GV Gi GN G/ EÆ` G¡ Gæ GJ G¨ G¿ G“ GÊ G‰ G  Gˆ GM GÆ GÀ GË G	 G	! G	> G	f G	ö G	° G	∑ G	ç G	Ñ G	\ G	, GÈ Gª Gw Ge G5 G GÁ G∂ Gè Gá G_ GC GM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
