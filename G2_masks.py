@@ -58,17 +58,18 @@ needed_values_array = np.array(needed_values)
 #needed_values gives the matched VALD wavelengths
 
 #need to match selected wavelength data to corresponding lande g factors
-#then will make a file with centroids, weights, VALD wavelengths, and 
+#then will make a file with centroids, weights, VALD wavelengths, and lande g factors
 
 lande = []
 
-for value in needed_values_array:
-	i = 0
+for value in needed_values_array: #needed_values_array is a select subset of wavelength array
+	i=0
 	for line in wavelength:
-		i = i + 1
 		if value == line:
-			lande.append(VALD_column_2[i-1])
+			lande.append(VALD_column_2[i])
 			break
+		else:
+			i = i + 1
 
 lande_array = np.array(lande)
 

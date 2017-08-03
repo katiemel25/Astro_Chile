@@ -65,10 +65,11 @@ lande = []
 for value in needed_values_array:
 	i = 0
 	for line in wavelength:
-		i = i + 1
 		if value == line:
-			lande.append(VALD_column_2[i-1])
+			lande.append(VALD_column_2[i])
 			break
+		else:
+			i = i + 1
 
 lande_array = np.array(lande)
 
